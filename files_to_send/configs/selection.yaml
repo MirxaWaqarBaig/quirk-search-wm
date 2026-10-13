@@ -1,0 +1,19 @@
+# Plane-finder and signal-region cuts from arXiv:1708.02243.
+# The paper quotes centimetres. These values are millimetres.
+#   seed Delta s 0.05 cm, seed Delta w 1 cm
+#   iterative gates equal the seed gates
+#   signal-region Delta s 0.01 cm, Delta w 1 cm
+delta_phi: 0.1
+delta_z_mm: 20.0
+delta_s_seed_mm: 0.5
+delta_w_seed_mm: 10.0
+delta_s_iter_mm: 0.5
+delta_w_iter_mm: 10.0
+grow_factor: 3.0
+delta_s_final_mm: 0.1
+delta_w_final_mm: 10.0
+seed_pair_phi: 0.5
+seed_pair_z_mm: 80.0
+n_layers: 8
+pt_trigger_gev: 200.0
+timing_ns: 25.0

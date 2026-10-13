@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# Failed MadGraph run: wrong mass, 408 MB HepMC. GitHub rejects files over 100 MB.
+madgraph_proc/ew_800/Events/run_01/tag_1_pythia8_events.hepmc.gz

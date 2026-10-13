@@ -1,0 +1,135 @@
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+c      written by the UFO converter
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+ckmblock 1 1 mdl_CKM11
+
+ckmblock 1 2 mdl_CKM12
+
+ckmblock 1 3 mdl_CKM13
+
+ckmblock 2 1 mdl_CKM21
+
+ckmblock 2 2 mdl_CKM22
+
+ckmblock 2 3 mdl_CKM23
+
+ckmblock 3 1 mdl_CKM31
+
+ckmblock 3 2 mdl_CKM32
+
+ckmblock 3 3 mdl_CKM33
+
+kappa 1 mdl_KX
+
+kappa 2 mdl_KT
+
+kappa 3 mdl_KB
+
+kappa 4 mdl_KY
+
+sminputs 1 aEWM1
+
+sminputs 2 mdl_Gf
+
+sminputs 3 aS
+
+xi 1 mdl_xitpw
+
+xi 2 mdl_xitpz
+
+xi 3 mdl_xitph
+
+xi 4 mdl_xibpw
+
+xi 5 mdl_xibpz
+
+xi 6 mdl_xibph
+
+yukawa 5 mdl_ymb
+
+yukawa 6 mdl_ymt
+
+yukawa 15 mdl_ymtau
+
+zeta 1 mdl_zetaXuL
+
+zeta 2 mdl_zetaXcL
+
+zeta 3 mdl_zetaXtL
+
+zeta 4 mdl_zetaTuL
+
+zeta 5 mdl_zetaTcL
+
+zeta 6 mdl_zetaTtL
+
+zeta 7 mdl_zetaBdL
+
+zeta 8 mdl_zetaBsL
+
+zeta 9 mdl_zetaBbL
+
+zeta 10 mdl_zetaYdL
+
+zeta 11 mdl_zetaYsL
+
+zeta 12 mdl_zetaYbL
+
+zeta 13 mdl_zetaXuR
+
+zeta 14 mdl_zetaXcR
+
+zeta 15 mdl_zetaXtR
+
+zeta 16 mdl_zetaTuR
+
+zeta 17 mdl_zetaTcR
+
+zeta 18 mdl_zetaTtR
+
+zeta 19 mdl_zetaBdR
+
+zeta 20 mdl_zetaBsR
+
+zeta 21 mdl_zetaBbR
+
+zeta 22 mdl_zetaYdR
+
+zeta 23 mdl_zetaYsR
+
+zeta 24 mdl_zetaYbR
+
+mass 15 mdl_MTA
+
+mass 6 mdl_MT
+
+mass 5 mdl_MB
+
+mass 6000005 mdl_MX
+
+mass 6000006 mdl_MTP
+
+mass 6000007 mdl_MBP
+
+mass 6000008 mdl_MY
+
+mass 23 mdl_MZ
+
+mass 25 mdl_MH
+
+decay 6 mdl_WT
+
+decay 6000005 mdl_WX
+
+decay 6000006 mdl_WTP
+
+decay 6000007 mdl_WBP
+
+decay 6000008 mdl_WY
+
+decay 23 mdl_WZ
+
+decay 24 mdl_WW
+
+decay 25 mdl_WH

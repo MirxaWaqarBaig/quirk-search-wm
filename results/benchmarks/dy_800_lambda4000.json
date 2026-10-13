@@ -1,0 +1,19 @@
+{
+  "benchmark": "dy_800",
+  "mass_gev": 800.0,
+  "lambda_ev": 4000.0,
+  "mode": "dy",
+  "charged_fraction": 1.0,
+  "cross_section_pb": 0.005806661455933638,
+  "luminosity_fb": 300.0,
+  "expected_events_300fb": 348.3996873560184,
+  "contour": "discovery",
+  "n_generated": 100,
+  "n_triggered": 30,
+  "n_fiducial": 27,
+  "n_reconstructed": 20,
+  "epsilon_trigger": 0.3,
+  "epsilon_fiducial": 0.9,
+  "epsilon_reco": 0.7407407407407407,
+  "epsilon_total": 0.2
+}

@@ -1,0 +1,110 @@
+{
+  "generator": "madgraph5_amc@nlo 3.8.0 + pythia 8.317",
+  "benchmark": "ew_800",
+  "model": "VLLS_NLO",
+  "particle": "taup",
+  "mass_gev": 800.0,
+  "lambda_ev": 4000.0,
+  "mode": "dy",
+  "charged_fraction": 1.0,
+  "workers": 16,
+  "madgraph_events_file": "/home/waqar/rafia_clone/october_work/quirk_search/madgraph_proc/ew_800/Events/run_03/tag_1_pythia8_events.hepmc.gz",
+  "cross_section_pb": 0.005806661455933638,
+  "luminosity_fb": 300.0,
+  "expected_events_300fb": 36.84996693188654,
+  "contour": "discovery",
+  "n_generated": 1040,
+  "n_triggered": 182,
+  "n_fiducial": 58,
+  "n_reconstructed": 22,
+  "epsilon_trigger": 0.175,
+  "epsilon_fiducial": 0.31868131868131866,
+  "epsilon_reco": 0.3793103448275862,
+  "epsilon_total": 0.021153846153846148,
+  "cutflow": {
+    "definitions": {
+      "epsilon_trigger": "N(trigger) / N(generated)",
+      "epsilon_fiducial": "N(fiducial) / N(trigger)",
+      "epsilon_reco": "N(hit_pattern) / N(fiducial)",
+      "epsilon_total": "epsilon_trigger * epsilon_fiducial * epsilon_reco"
+    },
+    "epsilon_trigger": 0.175,
+    "epsilon_fiducial": 0.31868131868131866,
+    "epsilon_reco": 0.3793103448275862,
+    "epsilon_total": 0.021153846153846148,
+    "cuts": [
+      {
+        "cut": "generated",
+        "definition": "Every simulated event, before any selection.",
+        "n_pass": 1040,
+        "efficiency_given_previous": 1.0
+      },
+      {
+        "cut": "trigger",
+        "definition": "Pair transverse momentum above 200 GeV. epsilon_trigger = N(trigger) / N(generated).",
+        "n_pass": 182,
+        "efficiency_given_previous": 0.175
+      },
+      {
+        "cut": "fiducial",
+        "definition": "Both quirks intersect all eight barrel layers, and every hit time is under 25 ns. epsilon_fiducial = N(fiducial) / N(trigger).",
+        "n_pass": 58,
+        "efficiency_given_previous": 0.31868131868131866
+      },
+      {
+        "cut": "seed_pair_layer8",
+        "definition": "Layer 8 has a hit pair with Delta phi < 0.1 and Delta z < 2 cm.",
+        "n_pass": 53,
+        "efficiency_given_previous": 0.9137931034482759
+      },
+      {
+        "cut": "seed_pair_layer7",
+        "definition": "Layer 7 has a hit pair with the same Delta phi and Delta z window.",
+        "n_pass": 51,
+        "efficiency_given_previous": 0.9622641509433962
+      },
+      {
+        "cut": "seed_prefilter",
+        "definition": "The layer-8 pair and the layer-7 pair agree within 0.5 rad and 80 mm. This drops combinations that cannot satisfy the 1 cm width cut.",
+        "n_pass": 40,
+        "efficiency_given_previous": 0.7843137254901961
+      },
+      {
+        "cut": "seed_delta_s",
+        "definition": "The four seed hits have plane thickness Delta s < 0.05 cm.",
+        "n_pass": 40,
+        "efficiency_given_previous": 1.0
+      },
+      {
+        "cut": "seed_delta_w",
+        "definition": "The four seed hits have oscillation width Delta w < 1 cm.",
+        "n_pass": 40,
+        "efficiency_given_previous": 1.0
+      },
+      {
+        "cut": "seed_forward",
+        "definition": "Every seed hit lies in the forward half of the fitted direction, n3 \u00b7 x > 0.",
+        "n_pass": 40,
+        "efficiency_given_previous": 1.0
+      },
+      {
+        "cut": "inward_walk",
+        "definition": "Hits are added from layer 6 down to layer 1 only when both Delta s and Delta w stay within a factor of three, and the finished plane has Delta w < 1 cm.",
+        "n_pass": 40,
+        "efficiency_given_previous": 1.0
+      },
+      {
+        "cut": "final_delta_s",
+        "definition": "The finished plane has thickness Delta s < 0.01 cm.",
+        "n_pass": 39,
+        "efficiency_given_previous": 0.975
+      },
+      {
+        "cut": "hit_pattern",
+        "definition": "Seven layers contain two hits and the remaining layer contains at least one. epsilon_reco = N(hit_pattern) / N(fiducial). epsilon_total = epsilon_trigger * epsilon_fiducial * epsilon_reco.",
+        "n_pass": 22,
+        "efficiency_given_previous": 0.5641025641025641
+      }
+    ]
+  }
+}

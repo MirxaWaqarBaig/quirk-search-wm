@@ -1,0 +1,4 @@
+1       g u > tp tp~ u,g c > tp tp~ c,g d > tp tp~ d,g s > tp tp~ s
+mirror  u g > tp tp~ u,c g > tp tp~ c,d g > tp tp~ d,s g > tp tp~ s
+2       g u~ > tp tp~ u~,g c~ > tp tp~ c~,g d~ > tp tp~ d~,g s~ > tp tp~ s~
+mirror  u~ g > tp tp~ u~,c~ g > tp tp~ c~,d~ g > tp tp~ d~,s~ g > tp tp~ s~

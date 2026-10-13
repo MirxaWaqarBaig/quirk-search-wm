@@ -1,0 +1,8 @@
+1       g u > taup taup~ u,g c > taup taup~ c
+mirror  u g > taup taup~ u,c g > taup taup~ c
+2       g d > taup taup~ d,g s > taup taup~ s,g b > taup taup~ b
+mirror  d g > taup taup~ d,s g > taup taup~ s,b g > taup taup~ b
+3       g u~ > taup taup~ u~,g c~ > taup taup~ c~
+mirror  u~ g > taup taup~ u~,c~ g > taup taup~ c~
+4       g d~ > taup taup~ d~,g s~ > taup taup~ s~,g b~ > taup taup~ b~
+mirror  d~ g > taup taup~ d~,s~ g > taup taup~ s~,b~ g > taup taup~ b~

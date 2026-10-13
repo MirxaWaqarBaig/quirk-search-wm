@@ -1,0 +1,72 @@
+# Eight-layer ATLAS barrel used in arXiv:1708.02243.
+# Pixel pitches are the sensor sizes (IBL is 50 x 250 um, other pixels 50 x 400 um).
+# SCT sigmas are twice the intrinsic resolutions in ATL-PHYS-PUB-2009-002.
+magnetic_field_t: 2.0
+beamspot_sigma_z_mm: 45.0
+conversion_radius_mm: 28.0
+timing_ns: 25.0
+layers:
+  - id: 1
+    radius_mm: 33.25
+    z_half_mm: 330.0
+    kind: pixel
+    pitch_rphi_mm: 0.05
+    pitch_z_mm: 0.25
+    sigma_rphi_mm: 0.05
+    sigma_z_mm: 0.25
+  - id: 2
+    radius_mm: 50.5
+    z_half_mm: 400.5
+    kind: pixel
+    pitch_rphi_mm: 0.05
+    pitch_z_mm: 0.4
+    sigma_rphi_mm: 0.05
+    sigma_z_mm: 0.4
+  - id: 3
+    radius_mm: 88.5
+    z_half_mm: 400.5
+    kind: pixel
+    pitch_rphi_mm: 0.05
+    pitch_z_mm: 0.4
+    sigma_rphi_mm: 0.05
+    sigma_z_mm: 0.4
+  - id: 4
+    radius_mm: 122.5
+    z_half_mm: 400.5
+    kind: pixel
+    pitch_rphi_mm: 0.05
+    pitch_z_mm: 0.4
+    sigma_rphi_mm: 0.05
+    sigma_z_mm: 0.4
+  - id: 5
+    radius_mm: 299.0
+    z_half_mm: 746.0
+    kind: sct
+    pitch_rphi_mm: 0.08
+    pitch_z_mm: 1.16
+    sigma_rphi_mm: 0.034
+    sigma_z_mm: 1.16
+  - id: 6
+    radius_mm: 371.0
+    z_half_mm: 746.0
+    kind: sct
+    pitch_rphi_mm: 0.08
+    pitch_z_mm: 1.16
+    sigma_rphi_mm: 0.034
+    sigma_z_mm: 1.16
+  - id: 7
+    radius_mm: 443.0
+    z_half_mm: 746.0
+    kind: sct
+    pitch_rphi_mm: 0.08
+    pitch_z_mm: 1.16
+    sigma_rphi_mm: 0.034
+    sigma_z_mm: 1.16
+  - id: 8
+    radius_mm: 514.0
+    z_half_mm: 746.0
+    kind: sct
+    pitch_rphi_mm: 0.08
+    pitch_z_mm: 1.16
+    sigma_rphi_mm: 0.034
+    sigma_z_mm: 1.16

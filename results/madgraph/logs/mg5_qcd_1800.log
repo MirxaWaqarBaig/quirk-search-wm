@@ -1,0 +1,445 @@
+************************************************************
+*                                                          *
+*                     W E L C O M E to                     *
+*              M A D G R A P H 5 _ a M C @ N L O           *
+*                                                          *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 3.8.0                 2026-09-15         *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*              http://madgraph.phys.ucl.ac.be/             *
+*                            and                           *
+*            http://amcatnlo.web.cern.ch/amcatnlo/         *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*           Type 'tutorial' to learn how MG5 works         *
+*    Type 'tutorial aMCatNLO' to learn how aMC@NLO works   *
+*    Type 'tutorial MadLoop' to learn how MadLoop works    *
+*                                                          *
+************************************************************
+load MG5 configuration from /home/waqar/.config/mg5_configuration.txt 
+load MG5 configuration from input/mg5_configuration.txt 
+fastjet-config does not seem to correspond to a valid fastjet-config executable (v3+). We will use fjcore instead.
+ Please set the 'fastjet'variable to the full (absolute) /PATH/TO/fastjet-config (including fastjet-config).
+ MG5_aMC> set fastjet /PATH/TO/fastjet-config
+
+eMELA-config does not seem to correspond to a valid eMELA-config executable.
+ Please set the 'fastjet'variable to the full (absolute) /PATH/TO/eMELA-config (including eMELA-config).
+ MG5_aMC> set eMELA /PATH/TO/eMELA-config
+
+lhapdf-config does not seem to correspond to a valid lhapdf-config executable. 
+Please set the 'lhapdf' variable to the (absolute) /PATH/TO/lhapdf-config (including lhapdf-config).
+Note that you can still compile and run aMC@NLO with the built-in PDFs
+ MG5_aMC> set lhapdf /PATH/TO/lhapdf-config
+
+set lhapdf to /home/waqar/rafia_clone/october_work/MG5_aMC_v3_8_0/HEPTools/lhapdf6_py3/bin/lhapdf-config
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+No valid eps viewer found. Please set in ./input/mg5_configuration.txt
+No valid web browser found. Please set in ./input/mg5_configuration.txt
+Using default gzip "gzip". Set another one in ./input/mg5_configuration.txt
+Loading default model: sm
+INFO: Restrict model sm with file models/sm/restrict_default.dat . 
+INFO: Run "set stdout_level DEBUG" before import for more information. 
+INFO: Change particles name to pass to MG5 convention 
+Defined multiparticle p = g u c d s u~ c~ d~ s~
+Defined multiparticle j = g u c d s u~ c~ d~ s~
+Defined multiparticle l+ = e+ mu+
+Defined multiparticle l- = e- mu-
+Defined multiparticle vl = ve vm vt
+Defined multiparticle vl~ = ve~ vm~ vt~
+Defined multiparticle all = g u c d s u~ c~ d~ s~ a ve vm vt e- mu- ve~ vm~ vt~ e+ mu+ t b t~ b~ z w+ h w- ta- ta+
+MG5_aMC>This option will be the default in any output that you are going to create in this session.
+In order to keep this changes permanent please run 'save options'
+MG5_aMC>This option will be the default in any output that you are going to create in this session.
+In order to keep this changes permanent please run 'save options'
+MG5_aMC>************************************************************
+*                                                          *
+*                      W E L C O M E to                    *
+*             M A D G R A P H 5 _ a M C @ N L O            *
+*                      M A D E V E N T                     *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 3.8.0                 2026-09-15         *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*                                                          *
+************************************************************
+INFO: load configuration from /home/waqar/.config/mg5_configuration.txt  
+INFO: load configuration from /home/waqar/rafia_clone/october_work/quirk_search/madgraph_proc/qcd_1800/Cards/me5_configuration.txt  
+INFO: load configuration from /home/waqar/rafia_clone/october_work/MG5_aMC_v3_8_0/input/mg5_configuration.txt  
+INFO: load configuration from /home/waqar/rafia_clone/october_work/quirk_search/madgraph_proc/qcd_1800/Cards/me5_configuration.txt  
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+No valid eps viewer found. Please set in ./input/mg5_configuration.txt
+No valid web browser found. Please set in ./input/mg5_configuration.txt
+Using default gzip "gzip". Set another one in ./input/mg5_configuration.txt
+generate_events run_03
+stty: 'standard input': Inappropriate ioctl for device
+The following switches determine which programs are run:
+/=============================================================================\
+1. Choose the shower/hadronization program   [1m  shower[0m = [32mPythia8[0m       
+2. Choose the detector simulation program    [1mdetector[0m = [01mNot Avail.[0m    
+3. Choose an analysis package (plot/convert) [1manalysis[0m = [01mNot Avail.[0m    
+4. Decay onshell particles                   [1m madspin[0m = [31mOFF[0m           
+5. Add weights to events for new hypp.       [1mreweight[0m = [31mOFF[0m           
+\=============================================================================/
+Either type the switch number (1 to 5) to change its setting,
+Set any switch explicitly (e.g. type 'shower=OFF' at the prompt)
+Type 'help' for the list of all valid option
+Type '0', 'auto', 'done' or just press enter when you are done.[60s to answer] 
+>stty: 'standard input': Inappropriate ioctl for device
+The following switches determine which programs are run:
+/=============================================================================\
+1. Choose the shower/hadronization program   [1m  shower[0m = [32mPythia8[0m       
+2. Choose the detector simulation program    [1mdetector[0m = [01mNot Avail.[0m    
+3. Choose an analysis package (plot/convert) [1manalysis[0m = [01mNot Avail.[0m    
+4. Decay onshell particles                   [1m madspin[0m = [31mOFF[0m           
+5. Add weights to events for new hypp.       [1mreweight[0m = [31mOFF[0m           
+\=============================================================================/
+Either type the switch number (1 to 5) to change its setting,
+Set any switch explicitly (e.g. type 'shower=OFF' at the prompt)
+Type 'help' for the list of all valid option
+Type '0', 'auto', 'done' or just press enter when you are done.
+>stty: 'standard input': Inappropriate ioctl for device
+The following switches determine which programs are run:
+/=============================================================================\
+1. Choose the shower/hadronization program   [1m  shower[0m = [32mPythia8[0m       
+2. Choose the detector simulation program    [1mdetector[0m = [01mNot Avail.[0m    
+3. Choose an analysis package (plot/convert) [1manalysis[0m = [01mNot Avail.[0m    
+4. Decay onshell particles                   [1m madspin[0m = [31mOFF[0m           
+5. Add weights to events for new hypp.       [1mreweight[0m = [31mOFF[0m           
+\=============================================================================/
+Either type the switch number (1 to 5) to change its setting,
+Set any switch explicitly (e.g. type 'shower=OFF' at the prompt)
+Type 'help' for the list of all valid option
+Type '0', 'auto', 'done' or just press enter when you are done.
+>stty: 'standard input': Inappropriate ioctl for device
+The following switches determine which programs are run:
+/=============================================================================\
+1. Choose the shower/hadronization program   [1m  shower[0m = [32mPythia8[0m       
+2. Choose the detector simulation program    [1mdetector[0m = [01mNot Avail.[0m    
+3. Choose an analysis package (plot/convert) [1manalysis[0m = [31mOFF[0m           
+4. Decay onshell particles                   [1m madspin[0m = [31mOFF[0m           
+5. Add weights to events for new hypp.       [1mreweight[0m = [31mOFF[0m           
+\=============================================================================/
+Either type the switch number (1 to 5) to change its setting,
+Set any switch explicitly (e.g. type 'shower=OFF' at the prompt)
+Type 'help' for the list of all valid option
+Type '0', 'auto', 'done' or just press enter when you are done.
+>stty: 'standard input': Inappropriate ioctl for device
+Do you want to edit a card (press enter to bypass editing)?
+/------------------------------------------------------------\
+|  [31m1[0m. param   : [32mparam_card.dat[0m                               |
+|  [31m2[0m. run     : [32mrun_card.dat[0m                                 |
+|  [31m3[0m. pythia8 : [32mpythia8_card.dat[0m                             |
+\------------------------------------------------------------/
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 3, pythia8, enter path][90s to answer] 
+>[1;34mWARNING: invalid set command nb_core 16  [0m
+INFO: Did you mean one of the following run_card options:
+nb_unweight_output	nb_proton1	nb_proton2	nb_neutron1	nb_neutron2	nb_warp 
+Do you want to edit a card (press enter to bypass editing)?
+/------------------------------------------------------------\
+|  [31m1[0m. param   : [32mparam_card.dat[0m                               |
+|  [31m2[0m. run     : [32mrun_card.dat[0m                                 |
+|  [31m3[0m. pythia8 : [32mpythia8_card.dat[0m                             |
+\------------------------------------------------------------/
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 3, pythia8, enter path] 
+>[1mINFO: modify parameter nevents of the run_card.dat to 2000 [0m
+Do you want to edit a card (press enter to bypass editing)?
+/------------------------------------------------------------\
+|  [31m1[0m. param   : [32mparam_card.dat[0m                               |
+|  [31m2[0m. run     : [32mrun_card.dat[0m                                 |
+|  [31m3[0m. pythia8 : [32mpythia8_card.dat[0m                             |
+\------------------------------------------------------------/
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 3, pythia8, enter path] 
+>[1mINFO: modify parameter ebeam1 of the run_card.dat to 6500.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+/------------------------------------------------------------\
+|  [31m1[0m. param   : [32mparam_card.dat[0m                               |
+|  [31m2[0m. run     : [32mrun_card.dat[0m                                 |
+|  [31m3[0m. pythia8 : [32mpythia8_card.dat[0m                             |
+\------------------------------------------------------------/
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 3, pythia8, enter path] 
+>[1mINFO: modify parameter ebeam2 of the run_card.dat to 6500.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+/------------------------------------------------------------\
+|  [31m1[0m. param   : [32mparam_card.dat[0m                               |
+|  [31m2[0m. run     : [32mrun_card.dat[0m                                 |
+|  [31m3[0m. pythia8 : [32mpythia8_card.dat[0m                             |
+\------------------------------------------------------------/
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 3, pythia8, enter path] 
+>[1mINFO: modify parameter iseed of the run_card.dat to 170802243 [0m
+Do you want to edit a card (press enter to bypass editing)?
+/------------------------------------------------------------\
+|  [31m1[0m. param   : [32mparam_card.dat[0m                               |
+|  [31m2[0m. run     : [32mrun_card.dat[0m                                 |
+|  [31m3[0m. pythia8 : [32mpythia8_card.dat[0m                             |
+\------------------------------------------------------------/
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 3, pythia8, enter path] 
+>[1mINFO: modify parameter pdlabel of the run_card.dat to nn23lo1 [0m
+Do you want to edit a card (press enter to bypass editing)?
+/------------------------------------------------------------\
+|  [31m1[0m. param   : [32mparam_card.dat[0m                               |
+|  [31m2[0m. run     : [32mrun_card.dat[0m                                 |
+|  [31m3[0m. pythia8 : [32mpythia8_card.dat[0m                             |
+\------------------------------------------------------------/
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 3, pythia8, enter path] 
+>[1mINFO: modify parameter ickkw of the run_card.dat to 1 [0m
+Do you want to edit a card (press enter to bypass editing)?
+/------------------------------------------------------------\
+|  [31m1[0m. param   : [32mparam_card.dat[0m                               |
+|  [31m2[0m. run     : [32mrun_card.dat[0m                                 |
+|  [31m3[0m. pythia8 : [32mpythia8_card.dat[0m                             |
+\------------------------------------------------------------/
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 3, pythia8, enter path] 
+>[1mINFO: modify parameter xqcut of the run_card.dat to 30.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+/------------------------------------------------------------\
+|  [31m1[0m. param   : [32mparam_card.dat[0m                               |
+|  [31m2[0m. run     : [32mrun_card.dat[0m                                 |
+|  [31m3[0m. pythia8 : [32mpythia8_card.dat[0m                             |
+\------------------------------------------------------------/
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 3, pythia8, enter path] 
+>[1mINFO: modify parameter ptj of the run_card.dat to 10.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+/------------------------------------------------------------\
+|  [31m1[0m. param   : [32mparam_card.dat[0m                               |
+|  [31m2[0m. run     : [32mrun_card.dat[0m                                 |
+|  [31m3[0m. pythia8 : [32mpythia8_card.dat[0m                             |
+\------------------------------------------------------------/
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 3, pythia8, enter path] 
+>[1mINFO: modify parameter use_syst of the run_card.dat to False [0m
+Do you want to edit a card (press enter to bypass editing)?
+/------------------------------------------------------------\
+|  [31m1[0m. param   : [32mparam_card.dat[0m                               |
+|  [31m2[0m. run     : [32mrun_card.dat[0m                                 |
+|  [31m3[0m. pythia8 : [32mpythia8_card.dat[0m                             |
+\------------------------------------------------------------/
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 3, pythia8, enter path] 
+>[1mINFO: modify param_card information BLOCK mass with id (6000006,) set to 1800.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+/------------------------------------------------------------\
+|  [31m1[0m. param   : [32mparam_card.dat[0m                               |
+|  [31m2[0m. run     : [32mrun_card.dat[0m                                 |
+|  [31m3[0m. pythia8 : [32mpythia8_card.dat[0m                             |
+\------------------------------------------------------------/
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 3, pythia8, enter path] 
+>[1mINFO: modify param_card information BLOCK decay with id (6000006,) set to 0.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+/------------------------------------------------------------\
+|  [31m1[0m. param   : [32mparam_card.dat[0m                               |
+|  [31m2[0m. run     : [32mrun_card.dat[0m                                 |
+|  [31m3[0m. pythia8 : [32mpythia8_card.dat[0m                             |
+\------------------------------------------------------------/
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 3, pythia8, enter path] 
+>INFO: Update the dependent parameter of the param_card.dat 
+[1;34mvalue '[]' for entry 'bypass_check' is not valid. Preserving previous value: '[]'.
+allowed values are any list composed of the following entries: partonshower[0m
+Generating 2000 events with run name run_03
+survey  run_03 
+INFO: compile directory 
+compile Source Directory
+Using random number seed offset = 170802243
+INFO: Running Survey 
+Creating Jobs
+Working on SubProcesses
+INFO: Compiling for process 1/5. 
+INFO:     P1_gg_tptpxg  
+  0%|          | 0/832 [00:00<?, ?it/s]100%|██████████| 832/832 [00:00<00:00, 30785.24it/s]
+INFO: Compiling for process 2/5. 
+INFO:     P1_gq_tptpxq  
+  0%|          | 0/773 [00:00<?, ?it/s]100%|██████████| 773/773 [00:00<00:00, 142689.77it/s]
+  0%|          | 0/773 [00:00<?, ?it/s]100%|██████████| 773/773 [00:00<00:00, 163739.05it/s]
+INFO: Compiling for process 3/5. 
+INFO:     P1_qq_tptpxg  
+  0%|          | 0/773 [00:00<?, ?it/s]100%|██████████| 773/773 [00:00<00:00, 131326.84it/s]
+INFO: Compiling for process 4/5. 
+INFO:     P0_gg_tptpx  
+  0%|          | 0/731 [00:00<?, ?it/s]100%|██████████| 731/731 [00:00<00:00, 232398.71it/s]
+INFO: Compiling for process 5/5. 
+INFO:     P0_qq_tptpx  
+  0%|          | 0/727 [00:00<?, ?it/s]100%|██████████| 727/727 [00:00<00:00, 382736.16it/s]
+INFO:     P1_gg_tptpxg  
+INFO:     P1_gq_tptpxq  
+INFO:     P1_qq_tptpxg  
+INFO:     P0_gg_tptpx  
+INFO:     P0_qq_tptpx  
+INFO:  Idle: 1,  Running: 0,  Completed: 10 [ current time: 10h00 ] 
+INFO:  Idle: 0,  Running: 1,  Completed: 10 [ current time: 10h00 ] 
+INFO:  Idle: 0,  Running: 0,  Completed: 11 [  0.14s  ] 
+INFO: End survey 
+refine 2000
+Creating Jobs
+INFO: Refine results to 2000 
+INFO: Generating 2000.0 unweighted events. 
+sum of cpu time of last step: 11 seconds
+INFO: Effective Luminosity 3169068.4498763 pb^-1 
+INFO: need to improve 1 channels 
+- Current estimate of cross-section: 0.0007573203412799999 +- 4.028746793531077e-06
+    P1_gg_tptpxg 
+    P1_gq_tptpxq 
+    P1_qq_tptpxg 
+    P0_gg_tptpx 
+    P0_qq_tptpx 
+INFO:  Idle: 1,  Running: 0,  Completed: 0 [ current time: 10h00 ] 
+INFO:  Idle: 0,  Running: 0,  Completed: 1 [  0.21s  ] 
+INFO: Combining runs 
+sum of cpu time of last step: 11 seconds
+INFO: finish refine 
+refine 2000 --treshold=0.9
+No need for second refine due to stability of cross-section
+INFO: Combining Events 
+combination of events done in 0.2996101379394531 s 
+  === Results Summary for run: run_03 tag: tag_1 ===
+
+     Cross-section :   0.0007566 +- 3.7e-06 pb
+     Nb of events :  2000
+ 
+store_events
+INFO: Storing parton level results 
+INFO: End Parton 
+reweight --mode=OFF -from_cards
+decay_events -from_cards
+INFO: [92mRunning Pythia8 [arXiv:1410.3012][0m 
+No user-defined value for Pythia8 parameter 'JetMatching:nJetMax'. Setting it automatically to 1.
+Splitting .lhe event file for PY8 parallelization...
+Submitting Pythia8 jobs...
+Pythia8 shower jobs: 1 Idle, 15 Running, 0 Done [0 second]
+Pythia8 shower jobs: 0 Idle, 15 Running, 1 Done [1 seconds]
+Pythia8 shower jobs: 0 Idle, 14 Running, 2 Done [1 seconds]
+Pythia8 shower jobs: 0 Idle, 13 Running, 3 Done [1 seconds]
+Pythia8 shower jobs: 0 Idle, 12 Running, 4 Done [1 seconds]
+Pythia8 shower jobs: 0 Idle, 11 Running, 5 Done [1 seconds]
+Pythia8 shower jobs: 0 Idle, 10 Running, 6 Done [1 seconds]
+Pythia8 shower jobs: 0 Idle, 9 Running, 7 Done [1 seconds]
+Pythia8 shower jobs: 0 Idle, 8 Running, 8 Done [1 seconds]
+Pythia8 shower jobs: 0 Idle, 7 Running, 9 Done [1 seconds]
+Pythia8 shower jobs: 0 Idle, 6 Running, 10 Done [1 seconds]
+Pythia8 shower jobs: 0 Idle, 5 Running, 11 Done [1 seconds]
+Pythia8 shower jobs: 0 Idle, 4 Running, 12 Done [1 seconds]
+Pythia8 shower jobs: 0 Idle, 3 Running, 13 Done [1 seconds]
+Pythia8 shower jobs: 0 Idle, 2 Running, 14 Done [1 seconds]
+Pythia8 shower jobs: 0 Idle, 1 Running, 15 Done [1 seconds]
+Pythia8 shower jobs: 0 Idle, 0 Running, 16 Done [1 seconds]
+Merging results from the split PY8 runs...
+INFO: Create matching plots for Pythia8 
+[1;34mFailed to produce Pythia8 merging plots.[0m
+INFO: Pythia8 shower finished after 1 seconds. 
+  === Results Summary for run: run_03 tag: tag_1 ===
+
+     Cross-section :   0.0007566 +- 3.7e-06 pb
+     Nb of events :  2000
+     Matched cross-section :   0.0003234 +- 8.518e-06 pb
+     Nb of events after matching/merging :  855
+ 
+INFO: storing files of previous run 
+INFO: Storing Pythia8 files of previous run 
+INFO: Done 
+quit
+INFO:  
+more information in /home/waqar/rafia_clone/october_work/quirk_search/madgraph_proc/qcd_1800/index.html
+MG5_aMC>GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files

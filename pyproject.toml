@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quirk-search"
+version = "1.0.0"
+description = "From-scratch reproduction of the LHC quirk search in arXiv:1708.02243"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

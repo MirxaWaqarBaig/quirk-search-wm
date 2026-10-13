@@ -1,0 +1,106 @@
+{
+  "benchmark": "qcd_1800",
+  "mass_gev": 1800.0,
+  "lambda_ev": 4000.0,
+  "mode": "qcd",
+  "charged_fraction": 0.3,
+  "n_generated": 2000,
+  "workers": 16,
+  "cross_section_pb": 0.3022955973993388,
+  "luminosity_fb": 300.0,
+  "expected_events_300fb": 4625.122640209885,
+  "contour": "discovery",
+  "n_triggered": 895,
+  "n_fiducial": 556,
+  "n_reconstructed": 340,
+  "epsilon_trigger": 0.4475,
+  "epsilon_fiducial": 0.6212290502793296,
+  "epsilon_reco": 0.6115107913669064,
+  "epsilon_total": 0.17,
+  "cutflow": {
+    "definitions": {
+      "epsilon_trigger": "N(trigger) / N(generated)",
+      "epsilon_fiducial": "N(fiducial) / N(trigger)",
+      "epsilon_reco": "N(hit_pattern) / N(fiducial)",
+      "epsilon_total": "epsilon_trigger * epsilon_fiducial * epsilon_reco"
+    },
+    "epsilon_trigger": 0.4475,
+    "epsilon_fiducial": 0.6212290502793296,
+    "epsilon_reco": 0.6115107913669064,
+    "epsilon_total": 0.17,
+    "cuts": [
+      {
+        "cut": "generated",
+        "definition": "Every simulated event, before any selection.",
+        "n_pass": 2000,
+        "efficiency_given_previous": 1.0
+      },
+      {
+        "cut": "trigger",
+        "definition": "Pair transverse momentum above 200 GeV. epsilon_trigger = N(trigger) / N(generated).",
+        "n_pass": 895,
+        "efficiency_given_previous": 0.4475
+      },
+      {
+        "cut": "fiducial",
+        "definition": "Both quirks intersect all eight barrel layers, and every hit time is under 25 ns. epsilon_fiducial = N(fiducial) / N(trigger).",
+        "n_pass": 556,
+        "efficiency_given_previous": 0.6212290502793296
+      },
+      {
+        "cut": "seed_pair_layer8",
+        "definition": "Layer 8 has a hit pair with Delta phi < 0.1 and Delta z < 2 cm.",
+        "n_pass": 533,
+        "efficiency_given_previous": 0.9586330935251799
+      },
+      {
+        "cut": "seed_pair_layer7",
+        "definition": "Layer 7 has a hit pair with the same Delta phi and Delta z window.",
+        "n_pass": 519,
+        "efficiency_given_previous": 0.9737335834896811
+      },
+      {
+        "cut": "seed_prefilter",
+        "definition": "The layer-8 pair and the layer-7 pair agree within 0.5 rad and 80 mm. This drops combinations that cannot satisfy the 1 cm width cut.",
+        "n_pass": 518,
+        "efficiency_given_previous": 0.9980732177263969
+      },
+      {
+        "cut": "seed_delta_s",
+        "definition": "The four seed hits have plane thickness Delta s < 0.05 cm.",
+        "n_pass": 518,
+        "efficiency_given_previous": 1.0
+      },
+      {
+        "cut": "seed_delta_w",
+        "definition": "The four seed hits have oscillation width Delta w < 1 cm.",
+        "n_pass": 510,
+        "efficiency_given_previous": 0.9845559845559846
+      },
+      {
+        "cut": "seed_forward",
+        "definition": "Every seed hit lies in the forward half of the fitted direction, n3 \u00b7 x > 0.",
+        "n_pass": 510,
+        "efficiency_given_previous": 1.0
+      },
+      {
+        "cut": "inward_walk",
+        "definition": "Hits are added from layer 6 down to layer 1 only when both Delta s and Delta w stay within a factor of three, and the finished plane has Delta w < 1 cm.",
+        "n_pass": 510,
+        "efficiency_given_previous": 1.0
+      },
+      {
+        "cut": "final_delta_s",
+        "definition": "The finished plane has thickness Delta s < 0.01 cm.",
+        "n_pass": 510,
+        "efficiency_given_previous": 1.0
+      },
+      {
+        "cut": "hit_pattern",
+        "definition": "Seven layers contain two hits and the remaining layer contains at least one. epsilon_reco = N(hit_pattern) / N(fiducial). epsilon_total = epsilon_trigger * epsilon_fiducial * epsilon_reco.",
+        "n_pass": 340,
+        "efficiency_given_previous": 0.6666666666666666
+      }
+    ]
+  }
+}
